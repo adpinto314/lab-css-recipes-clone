@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.logo{
+    background: url(../images/apple-pie.jpg) center;
+    background-size: cover;
+    height: 900px;
+    position: relative;
+  }
+
+.logo h1{
+    color: white;
+    font-size: 170px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+.global-content {
+
+    padding: 75px;
+}
+
+hr{
+    margin: 45px 0px;
+}
+
+.one p{  
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.one img{
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.two ul {    
+    list-style-type: none;
+    margin-bottom: 45px;
+}
+
+.two ul li {
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.two img{
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.three ul{
+    list-style-type: none;
+    margin-bottom: 45px;
+}
+
+.three ul li {
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+    margin-left: 20px;
+}
